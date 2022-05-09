@@ -1,0 +1,12 @@
+rules_version = '2';
+service cloud.firestore {
+  function hasRoles(roles) {
+    return request.auth.token.role in roles;
+  }
+
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if hasRoles(['admin', 'user']);
+    }
+  }
+}
