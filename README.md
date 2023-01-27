@@ -58,5 +58,3 @@ User profile picture is stored in firebase storage.
 <img src="https://user-images.githubusercontent.com/43092397/167423382-e271fea2-25e2-44fd-97c0-83c6728bfde4.png" width="190"/>
 <img src="https://user-images.githubusercontent.com/43092397/167423384-84155ba4-23f8-48d2-bfc3-63ea887690ad.png" width="190"/>
 </div>
-
-![](https://hit.yhype.me/github/profile?user_id=43092397)
